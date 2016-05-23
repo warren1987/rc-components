@@ -2,6 +2,10 @@
   "name": "rc-components",
   "version": "0.1.12",
   "description": "React Component Library",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warren1987/rc-components.git"
+  },
   "scripts": {
     "build": "rm -rf lib && babel components -d lib",
     "start": "node server.js",
