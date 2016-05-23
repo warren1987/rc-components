@@ -1,0 +1,43 @@
+.rcc-inputNumber {
+	display: inline-block;
+	line-height: 28px;
+}
+
+.rcc-inputNumber .rcc-inputNumber-minus {
+	display: inline-block;
+	vertical-align: top;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px solid #d9d9d9;
+	border-right: none;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+.rcc-inputNumber-nimus-disabled {
+	cursor: not-allowed;
+}
+
+.rcc-inputNumber-input {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 0px;
+}
+
+.rcc-inputNumber .rcc-inputNumber-plus {
+	display: inline-block;
+	vertical-align: top;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #d9d9d9;
+	border-left: none;
+	border-radius: 0px;
+	padding: 0px;
+}

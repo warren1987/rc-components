@@ -1,0 +1,49 @@
+.rcc-CheckButton {
+	position: relative;
+	display: inline-block;
+	height: 27px;
+	line-height: 27px;
+	border: 2px solid #FFF;
+}
+
+.rcc-CheckButton-checked {
+	border: 2px solid #636363;
+}
+
+.rcc-CheckButton-checked:before {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	content: '';
+	border-width: 0 0 10px 10px;
+	border-style: solid;
+	border-color: transparent transparent #636363 transparent;
+	z-index: 1;
+}
+
+.rcc-CheckButton-checked:after {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 8px;
+    height: 10px;
+	line-height: 15px;
+	content: '\2714';
+	color: white;
+	z-index: 1;
+}
+
+.rcc-CheckButton-content {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 21px;
+	height: 21px;
+	line-height: 21px;
+	border: 1px solid #bdab7a;
+	margin: 1px;
+	z-index: 0;
+	color: #232121;
+}
