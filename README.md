@@ -10,8 +10,9 @@ const onChange = (value) => {
 };
 <InputNumber onChange={onChange} />
 ```
-Sample:
-![InputNumber Sample](assets/images/InputNuber.png)
+Demo:
+
+![InputNumber Sample](assets/images/InputNumber.png)
 
 #CheckButton(Color Selector)
 
@@ -24,8 +25,10 @@ const onChange = (value, checked) => {
 
 <CheckButton value="Blue Green" color="#87E1F1" onChange={onChange} />
 ```
-Sample(Inactive):
+Demo(Inactive):
+
 ![InputNumber Sample](assets/images/CheckButton_inactive.png)
 
-Sample(Active):
+Demo(Active):
+
 ![InputNumber Sample](assets/images/CheckButton_active.png)
