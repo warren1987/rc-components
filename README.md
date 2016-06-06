@@ -59,6 +59,8 @@ const colorGroup = [
 <CheckButtonGroup options={colorGroup} onChange={onChange} isTooltipVisible={true} />
 ```
 
+![CheckButtonGroup Sample One](assets/images/checkButtonGroup.png)
+
 #CheckButtonGroup(Usage Two)
 
 ```js
@@ -83,3 +85,5 @@ const images = [
 
 <CheckButtonGroup options={images} onChange={onChange} width={100} height={100}/>
 ```
+
+![CheckButtonGroup Sample Two](assets/images/checkButtonImageGroup.png)
