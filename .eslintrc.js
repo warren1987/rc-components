@@ -21,6 +21,7 @@ module.exports = {
 		"prefer-arrow-callback": 1,
 		"prefer-const": 1,                             // 从未被修改的变量被定义为let型，而不是const型
 		"prefer-template": 1,
+		"react/jsx-boolean-value": [0, "never"],
 		"react/jsx-indent-props": [0, 'tab'],
 		"react/jsx-no-bind": 1,
 		"react/jsx-closing-bracket-location": [0, "after-props"],
@@ -36,7 +37,7 @@ module.exports = {
 	extends: "airbnb",
 	ecmaFeatures: {
 		jsx: true,
-		experimentalObjectRestSpread: true
+		experimentalObjectRestSpread: true,
 	},
 	plugins: [
 		"react"

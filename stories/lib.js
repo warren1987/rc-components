@@ -1,2 +1,2 @@
-import 'antd/lib/index.css';
+import 'antd/dist/antd.less';
 import '../style/style.css';

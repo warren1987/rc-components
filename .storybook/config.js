@@ -4,6 +4,8 @@ function loadStories() {
 	require('../stories/lib');
 	require('../stories/InputNumber');
 	require('../stories/CheckButton');
+	require('../stories/CheckButtonGroup');
+	require('../stories/ColorSelectorGroup');
 	// require as many as stories you need.
 }
 
